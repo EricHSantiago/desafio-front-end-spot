@@ -2,7 +2,7 @@
 
 import Button from '@/components/Buttons/ButtonForm/button-form'
 import InputView from '@/components/input/input'
-import InputPasswordView from '@/components/Password/input'
+import InputPasswordView from '@/components/Password/input-password'
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'

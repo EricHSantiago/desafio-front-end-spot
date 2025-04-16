@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { FiEye, FiEyeOff } from "react-icons/fi"
-import { InputPasswordViewProps } from "./input.type"
+import { InputPasswordViewProps } from "./input-password.type"
 
 export default function InputPasswordView({
     label,

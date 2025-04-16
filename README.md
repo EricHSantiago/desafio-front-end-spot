@@ -2,6 +2,8 @@
 
 Este projeto foi desenvolvido como parte de um desafio técnico para uma vaga de Desenvolvedor(a) Front-End Júnior. O objetivo era construir uma aplicação com foco em UX/UI, front end, organização de código e responsividade utilizando as tecnologias React/Next.js, TailwindCSS e Radix UI.
 
+Branch mais atualizada (Master)
+
 ## 🚀 Tecnologias utilizadas
 
 - [Next.js](https://nextjs.org/)

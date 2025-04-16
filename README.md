@@ -1,36 +1,133 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Painel do Cliente - Desafio Técnico
 
-## Getting Started
+Este projeto foi desenvolvido como parte de um desafio técnico para uma vaga de Desenvolvedor(a) Front-End Júnior. O objetivo era construir uma aplicação com foco em UX/UI, front end, organização de código e responsividade utilizando as tecnologias React/Next.js, TailwindCSS e Radix UI.
 
-First, run the development server:
+## 🚀 Tecnologias utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Radix UI](https://www.radix-ui.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+
+## 📁 Estrutura de pastas
+
+```
+├── public/
+│   └── assets/
+│       └── img-page-sign-in.jpg
+├── src/
+│   ├── app/
+│   │   ├── (private)/
+│   │   │   ├── dashboard/
+│   │   │   │   └── page.tsx
+│   │   │   └── layout.tsx
+│   │   ├── (public)/
+│   │   │   ├── about/
+│   │   │   │   └── page.tsx
+│   │   │   ├── register/
+│   │   │   │   └── page.tsx
+│   │   │   └──  sign-in/
+│   │   │        └── page.tsx
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── components/
+│   │   ├── Buttons/
+│   │   │   └── ButtonForm/
+│   │   │       └── button-form.tsx
+│   │   │       └── button-form.type.tsx
+│   │   ├── Calendar/
+│   │   │   └── Calendar.tsx
+│   │   ├── Header/
+│   │   │   └── header.tsx
+│   │   ├── Input/
+│   │   │   └── input.tsx
+│   │   │   └── input.type.tsx
+│   │   ├── Password/
+│   │   │   └── input-password.tsx
+│   │   │   └── input-password.type.tsx
+│   │   ├── Sidebar/
+│   │   │   └── sidebar.tsx
+│   │   │   └── sidebar.type.tsx
+│   │   └── User Panel/
+│   │       └── user-panel.tsx
+│   └── middleware.tsx/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔐 Acesso ao sistema
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+A autenticação é simulada com validação de usuário fixo.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Credenciais para login:**
 
-## Learn More
+```
+Usuário: spotmkt
+Senha: 123
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 💻 Telas do projeto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 1. Tela de Login
+- Responsiva
+- Com validação de usuário e senha
+- Feedback de erro
+- Oculta imagem lateral em telas pequenas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 2. Painel Principal (Dashboard)
+- Cards de métricas
+- Calendário de ações (fake)
+- Notificações e histórico de ações
+- Informações do usuário com menu suspenso
+- Menu lateral com navegação entre seções
+- Layout responsivo com Header fixo e Sidebar adaptativa
 
-## Deploy on Vercel
+## 📱 Responsividade
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+A aplicação é responsiva e otimizada para diferentes tamanhos de tela. Na versão mobile:
+- A imagem da tela de login é ocultada
+- A Sidebar se ajusta ou pode ser adaptada para um drawer/menu
+- Layouts reorganizados com Flex/Grid
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🧠 Conceitos aplicados
+
+- Componentização e reutilização
+- Responsividade com Tailwind
+- Acessibilidade com Radix UI
+- Organização de pastas e separação por responsabilidades
+- Simulação de login com cookies e rota protegida
+
+## 📌 Como rodar o projeto
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/nome-do-repo.git
+```
+
+2. Instale as dependências:
+```bash
+npm install
+```
+
+3. Rode o projeto:
+```bash
+npm run dev
+```
+
+4. Acesse no navegador:
+```
+http://localhost:3000
+```
+
+## 📩 Contato
+
+Caso queira saber mais sobre o projeto:
+
+- 💼 LinkedIn: [seu-linkedin](https://www.linkedin.com/in/erichsantiago/)
+- 📧 Email: erichsantiago@outlook.com.br
+
+---
+
+Feito por [Eric Henrique]
+

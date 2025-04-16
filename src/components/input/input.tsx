@@ -6,7 +6,7 @@ export default function InputView({
     ...rest
 }: InputViewProps) {
     const baseClasses =
-        "w-full px-4 py-2 pr-10 border rounded-md outline-none transition focus:ring-2 border-[#9E9E9E] focus:ring-blue-500"
+        "w-full px-4 py-2 pr-10 border border-[#9E9E9E] rounded-md transition focus:outline-none focus:ring-2 focus:ring-[#1447e6] focus:border-[#1447e6]"
 
     return (
         <div className="w-full space-y-1">
@@ -17,6 +17,7 @@ export default function InputView({
             )}
 
             <input
+                type="text"
                 {...rest}
                 className={`${baseClasses} ${className}`}
             />

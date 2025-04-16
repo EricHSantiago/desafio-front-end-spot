@@ -1,15 +1,10 @@
 import type { Metadata } from "next";
-import { Geist_Mono, Zen_Kaku_Gothic_Antique } from "next/font/google";
+import { Zen_Kaku_Gothic_Antique } from "next/font/google";
 import "./globals.css";
 
 const zen = Zen_Kaku_Gothic_Antique({
   variable: "--font-zens",
   weight: '700',
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
   subsets: ["latin"],
 });
 
@@ -26,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={`${zen.variable} ${geistMono.variable} antialiased`}
+        className={`${zen.variable} antialiased`}
       >
         {children}
       </body>

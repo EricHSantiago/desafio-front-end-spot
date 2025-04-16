@@ -1,6 +1,6 @@
 'use client'
 
-import Button from '@/components/Buttons/button'
+import Button from '@/components/Buttons/ButtonForm/button-form'
 import InputView from '@/components/input/input'
 import InputPasswordView from '@/components/Password/input'
 import Image from 'next/image'

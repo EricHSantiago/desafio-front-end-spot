@@ -1,4 +1,4 @@
-import { ButtonsProps } from "./button.type";
+import { ButtonsProps } from "./button-form.type";
 
 export default function Button({ children }: ButtonsProps) {
     return (
